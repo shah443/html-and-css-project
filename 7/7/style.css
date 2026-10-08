@@ -1,0 +1,87 @@
+main{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns:auto auto auto auto;
+    background-color: antiquewhite;
+    gap: 1rem;
+}
+main section.zero{
+    background-color: red;
+    grid-column:1 / span 3;
+    grid-row: 1 / span 2;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDSwQeYsy-xxMqXYaRUCU1BCqvSA0Y3pg20bi9UtO-Kg&s=10);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 14rem;
+    padding-left: 2rem;
+}
+main section button.button{
+    padding: 2px;
+}
+.icon{
+    display: flex;
+    color: rgb(243, 243, 243);
+    gap: 10px;
+}
+.bold{
+    font-size:2rem;
+}
+main section.one{
+    background-color: aqua;
+    grid-row:2/ span 1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5q5xaq4mREHN2A2BNFff_aXw5TLfNQ5bz2JtEDE4ZH89TSJ0753Pli2A&s=10);
+    color: white;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    
+}
+.icon2{
+    display: flex;
+    color: rgb(243, 243, 243);
+    gap: 10px;
+}
+main section.two{
+    background-color: aquamarine;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRanF6GQIUoXHkdMxSEjn1M0-apMwKj6vkYUvIU_LD41A&s);
+    color: white;
+   padding-top: 3rem;
+    padding-left: 2rem;
+}
+.icon3{
+    display: flex;
+    color: rgb(243, 243, 243);
+    gap: 10px;
+}
+main section.three{
+    background-color:rgb(254, 254, 255);
+    grid-column: 1 /span 7;
+}
+main section.four{
+    background-color:brown;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAPf_062JKWOBQr9rKxfyjLtlwzCn6Wwx_fJ6vQDIAgQ&s=10);
+     padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+main section.five{
+    background-color: cadetblue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJSnrJ5cmEu2ATSO1hEJqhubzMOi0hcut9UxNSKlrOg&s=10);
+     padding-top: 3rem;
+    padding-left: 2rem;
+}
+main section.six{
+    background-color: burlywood;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJiL2savWoGa11xgA0dE_0XjhbdeZokBLo_dScmZJKg&s=10);
+     padding-top: 3rem;
+    padding-left: 2rem;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+main section.seven{
+    background-color:red ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXCsW10nAjoXFTDiXZW7Y-fPj9YPUX0aDKyIj-R9lhYw&s=10);
+     padding-top: 3rem;
+    padding-left: 2rem;
+}

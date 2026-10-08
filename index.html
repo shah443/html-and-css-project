@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 100%;
+            height:100vh;
+            background-color: rgb(16, 16, 16);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            background-color: aquamarine;
+            width: 5rem;
+            height: 5rem;
+            animation-name: animate;
+            animation-timing-function: linear;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animate {
+            0%{
+                width: 5rem;
+                height: 5rem;
+                transform: rotate(0deg);
+                border-radius:0%;
+            }
+            50%{
+                width:10rem;
+                height:10rem;
+                transform: rotate(180deg);
+                border-radius:25%;
+            }
+            100%{
+                width: 15rem;
+                height: 15rem;
+                transform: rotate(360deg);
+                border-radius: 50%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <section></section>
+</main>
+</body>
+</html>
