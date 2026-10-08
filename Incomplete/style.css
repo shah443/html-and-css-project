@@ -1,0 +1,497 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+:root{
+    --primary-background-color: #F2EEE5;
+    --primary-text-color:#B6A172;
+    --gray-color:rgba(128, 128, 128, 0.731);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 3rem ;
+    align-items: center;
+    background-color: var(--primary-background-color);
+}
+header .left{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+header .left .box{
+    background-color: brown;
+    width: .5rem;
+    height: .5rem;
+}
+header .left h6{
+    margin-top: .7rem;
+    color: var(--gray-color);
+}
+header .right{
+    display: flex;
+    align-items: center;
+    justify-content: cetner;
+    gap: .5rem;
+}
+header .right button{
+    height: 2rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    font-weight: bold;
+}
+header .right button:first-child div,
+header .right button:last-child div{
+    width: .5rem;
+    height: .1rem;
+    background-color: black;   
+}
+main{
+    background-color: var(--primary-background-color);
+     padding: 0 3rem;
+}
+.hero-section{
+    padding-bottom: 3rem;
+}
+.hero-section .top{
+    display:flex ;
+    justify-content: space-between;
+    
+}
+.hero-section .top p{
+    color:var(--gray-color);
+}
+.hero-section .top span{
+    color: rgba(0, 0, 0, 0.532);
+}
+#text-right{
+text-align: right;
+}
+.hero-section .middle{
+    display: flex;
+   margin-top: 4rem;
+    align-items: center;
+    gap: 1rem;
+     color:var(--primary-text-color);
+}
+.hero-section .middle div{
+    height: 0.1rem;
+    width:3rem;
+    background-color:var(--primary-text-color);
+}
+.hero-section .middle h6{
+    letter-spacing: 0.4rem;
+}
+.hero-section .bottom{
+    margin-top: 3.4rem;
+}
+.hero-section .bottom h1{
+    font-size: 5rem;
+    font-weight:100;
+       
+}
+.hero-section .bottom span{
+    font-style: italic;
+    color: #B6A172;
+}
+.hero-section .bottom p{
+    margin-top: 2rem;
+    font-style: italic;
+    color: var(--gray-color);
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.hero-section .last{
+    margin-top: 2rem;
+   width: 7rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.second-section .card-container{
+    display: flex;
+    justify-content: space-between;
+     margin-top: 2rem;
+}
+.second-section .card-container div{
+    width: 30%;
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+main .middle-left{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.middle-left .boxing{
+       background-color: brown;
+    width: .5rem;
+    height: .5rem;
+}
+main .middle-left h6{
+    margin-top: .7rem;
+    color: var(--gray-color);
+}
+main .middle-right{
+    display: flex;
+    align-items: center;
+    justify-content: cetner;
+    gap: .5rem;
+}
+main .middle-right button{
+    height: 2rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    font-weight: bold;
+}
+main .middle-right button:first-child div,
+main .middle-right button:last-child div{
+    width: .5rem;
+    height: .1rem;
+    background-color: black;   
+}
+
+.middle-west{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.second-compass{
+    margin-top: 6rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+   
+}
+ .east{
+    height: 0.1rem;
+    width: 2rem;
+    background-color: var(--primary-text-color);
+}
+.middle-east{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.middle-east h6{
+  color: var(--primary-text-color);
+}
+.second-compass h1 span{
+    color: var(--primary-text-color);
+    font-style: italic;
+}
+.middle-west {
+    width: 27%;
+    line-height: 1.5;
+    font-style: italic;
+    color: var(--gray-color);
+    border-left: 1px solid rgba(0, 0, 0, 0.154);
+    padding-left: 1.2rem;
+}
+.middle-south{
+    display: flex;
+    line-height: 1.5;
+    gap: 1rem;   
+    margin-top: 3rem;
+}
+.middle-south h1{
+   font-size: 4rem;
+   font-style: italic;
+   font-weight: 100;
+   color: var(--primary-text-color);
+}
+.middle-south  h4{
+    font-weight: 100;   
+}
+.middle-south h4 span{
+    font-weight: 700;
+}
+.middle-south h3 span{
+    color: var(--primary-text-color);
+    font-style: italic;
+}
+.middle-south  h4{
+    display: flex;
+    gap: 6rem;
+    font-style: italic;
+}
+.middle-south .mon p{
+    padding: 1.6rem 0rem;
+}
+
+.middle-south .tue{
+    border-left: 0.1rem solid var(--gray-color);
+    height: 22rem;
+    padding-left: 1rem;
+}
+.middle-south .tue p{
+    padding: 1.6rem 0rem;
+}
+.middle-south .wed{
+     border-left: 0.1rem solid var(--gray-color);
+    height: 22rem;
+    padding-left: 1rem;
+}
+.middle-south .wed p{
+    padding: 1.6rem 0rem;
+}
+.middle-south .thurs{
+     border-left: 0.1rem solid var(--gray-color);
+    height: 22rem;
+    padding-left: 1rem;  
+}
+.middle-south .thurs p{
+    padding: 1.6rem 0rem;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+main .middle-section{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+main .middle-section .boxer{
+    background-color: brown;
+    width: .5rem;
+    height: .5rem;
+}
+main .middle-section h6{
+    margin-top: .7rem;
+    color: var(--gray-color);
+}
+main .middle-section2{
+    display: flex;
+    align-items: center;
+    justify-content: cetner;
+    gap: .5rem;
+}
+main .middle-section2 button{
+    height: 2rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    font-weight: bold;
+}
+main .middle-section2 button:first-child div,
+main .middle-section2 button:last-child div{
+    width: .5rem;
+    height: .1rem;
+    background-color: black;   
+}
+.content-box{
+   
+    margin-top: 5rem;
+}
+ .content{
+    height: 0.1rem;
+    width: 2rem;
+    background-color: var(--primary-text-color);
+}
+.middle-content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.middle-content h6{
+  color: var(--primary-text-color);
+}
+.content-box h1 span{
+    color: var(--primary-text-color);
+    font-style: italic;   
+}
+.content-box h1{
+    font-weight: 100;
+    font-size: 2.5rem;
+
+}
+.table table{
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 3rem;
+}
+.table table th{
+   padding: 0.9rem 4rem; 
+   border: none;
+     border-top: 1px solid black;
+
+}
+.table table td{
+    padding: 0.9rem 5rem;
+    border-left: none;
+    border-right: none;
+  
+} 
+.table table td span{
+    color: red;
+}
+.table table th span{
+    color: #B6A172;
+}
+.primary{
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+    font-style: italic;
+     color: var(--gray-color);
+}
+.primary span{
+    color: var(--primary-text-color);
+   
+}
+.primary-box{
+   
+    margin-top: 5rem;
+}
+ .control{
+    height: 0.1rem;
+    width: 2rem;
+    font-family: sans-serif;
+    background-color: var(--primary-text-color);
+}
+.primary-content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+main .primary-section{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+main .primary-section .boxer{
+    background-color: brown;
+    width: .5rem;
+    height: .5rem;
+}
+main .primary-section h6{
+    margin-top: .7rem;
+    color: var(--gray-color);
+}
+main .primary-section2{
+    display: flex;
+    align-items: center;
+    justify-content: cetner;
+    gap: .5rem;
+}
+main .primary-section2 button{
+    height: 2rem;
+    padding: 0 1rem;
+    border: 1px solid black;
+    font-weight: bold;
+}
+main .primary-section2 button:first-child div,
+main .primary-section2 button:last-child div{
+    width: .5rem;
+    height: .1rem;
+    background-color: black;   
+}
+.card{
+     display: flex;
+     gap: 1rem;
+     align-items: center;
+     margin-top: 6rem;
+}
+.card .card1{
+    height: 0.1rem;
+    width: 2rem;
+    background-color: var(--primary-text-color);
+}
+.card .card2{
+    color: var(--primary-text-color);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.middle-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.middle-card .middle-card2{
+    font-size: 3rem;
+}
+.middle-card .middle-card2 span{
+    color: var(--primary-text-color);
+    font-style: italic;
+}
+.middle-card .middle-card3{
+    font-style: italic;
+}
+.middle-card .middle-card3 span a{
+    color: var(--primary-text-color);
+}
+.last-cards{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;    
+}
+.first-card{
+    background-color: rgb(240, 226, 226);
+    height: 30rem;
+}
+.first-card .first{
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: var(--primary-text-color);
+    color: white;
+}
+.first-card .child{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+.last-cards .space {
+    padding: 0 2rem;
+    margin-top: 1rem;
+}
+.last-cards .space-2 {
+    padding:  0 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.template a{
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 1rem;
+      text-decoration: none; 
+}
+.template hr{
+    width: 10rem;
+    margin-left: 1rem;
+   
+}
+.template span{
+    color:black;
+    font-size: 1.5rem;
+}
+footer {
+    height: 400vh;
+    background-color: var(--primary-background-color);
+}
